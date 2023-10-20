@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <title>Samson Personal Portfolio</title>
+  </head>
+  <body>
+    <!-- content -->
+    <div class="content">
+      <!-- header start -->
+      <header>
+        <ul class="navbar">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#pricing" class="nav-link">Pricing</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </header>
+      <!-- header end -->
+
+      <!-- main start -->
+      <main>
+        <!-- intro section -->
+        <div id="home" class="intro">
+          <div>
+            <span class="welcome">Welcome! I'M</span>
+            <h1 class="my-name">Samson G.</h1>
+            <h3 class="my-desc">Graphic & Web Designer</h3>
+            <p class="title-desc">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptate tempora temporibus ducimus quo harum velit mollitia
+              eveniet! Nostrum, quaerat atque?
+            </p>
+            <button class="learn-more">Learn More</button>
+          </div>
+          <img src="sam.jpeg" alt="" class="image1" />
+          <!-- <div class="my-image1">
+            <img src="sam.jpeg" alt="" />
+          </div> -->
+        </div>
+
+        <!-- about section -->
+        <div id="about" class="about">
+          <img src="sam.jpeg" alt="" class="image2" />
+          <!-- <div class="my-image2">
+            <img src="sam.jpeg" alt="" />
+          </div> -->
+          <div class="about-desc">
+            <span class="about-me">About me</span>
+            <h2>Why hire me for your next project?</h2>
+            <p class="about-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+              et odio hic nostrum quaerat, ad facilis deserunt sint ratione! Ut
+              ea odio asperiores architecto, voluptas explicabo in fugiat facere
+              non! At magnam veniam, reiciendis sed iusto officia mollitia et
+              voluptas laborum cupiditate cumque. Autem, vel possimus! Suscipit
+              doloribus laborum voluptatum.
+            </p>
+            <button class="download-cv">Download CV</button>
+          </div>
+        </div>
+
+        <!-- services section -->
+        <div id="services" class="services">
+          <span class="services">Services</span>
+          <h2>My Provided Features</h2>
+          <div class="cards">
+            <div class="card">
+              <i><span>&#x2605;</span></i>
+              <h4 class="card-title">UI/UX Design</h4>
+              <p class="card-desc">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id,
+                assumenda?
+              </p>
+              <button class="services-card-btn">Find Out More</button>
+            </div>
+            <div class="card">
+              <i><span>&#x2605;</span></i>
+              <h4 class="card-title">Web Design</h4>
+              <p class="card-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad,
+                ducimus?
+              </p>
+              <button class="services-card-btn">Find Out More</button>
+            </div>
+            <div class="card">
+              <i><span>&#x2605;</span></i>
+              <h4 class="card-title">Graphic Design</h4>
+              <p class="card-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Adipisci, nostrum.
+              </p>
+              <button class="services-card-btn">Find Out More</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- pricing-plan section -->
+        <div id="pricing" class="pricing-plan">
+          <span class="pricing">Pricing</span>
+          <h2>Choose Your Best Plan</h2>
+          <div class="cards">
+            <div class="card">
+              <h4 class="card-title">STANDARD</h4>
+              <h3 class="price">$ 19</h3>
+              <p class="card-desc">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Voluptatem, repudiandae.
+              </p>
+              <button class="pricing-card-btn">Select Plan</button>
+            </div>
+            <div class="card">
+              <h4 class="card-title">PREMIUM</h4>
+              <h3 class="price">$ 39</h3>
+              <p class="card-desc">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Voluptatem, repudiandae.
+              </p>
+              <button class="pricing-card-btn">Select Plan</button>
+            </div>
+            <div class="card">
+              <h4 class="card-title">GOLDEN</h4>
+              <h3 class="price">$ 79</h3>
+              <p class="card-desc">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Voluptatem, repudiandae.
+              </p>
+              <button class="pricing-card-btn">Select Plan</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- testimonials section -->
+        <div class="testimonials">
+          <span class="testimonials">Testimonials</span>
+
+          <h2>What People Say</h2>
+          <!-- Carousel -->
+        </div>
+
+        <!-- contact-me section -->
+        <div id="contact" class="contact">
+          <span class="contact-me">Contact Me</span>
+          <h2>Send Me a Message</h2>
+          <form action="#">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              required
+              placeholder="Enter your name here..."
+            />
+            <br />
+            <br />
+            <input
+              type="email"
+              name="name"
+              id="name"
+              required
+              placeholder="Enter your email here..."
+            />
+            <br />
+            <br />
+            <textarea class="message" id="message" cols=68" rows="10"
+            placeholder="Type your message here...">
+            <br />
+            <input class="submit-form" type="submit" value="Submit Now" />
+          </form>
+        </div>
+
+        <!-- subscribe section -->
+        <div class="subscribe">
+          <h2>Subscribe</h2>
+          <p>Subscribe to get our latest promotions</p>
+          <form action="#">
+            <input
+              class="input-subscribe"
+              type="email"
+              placeholder="Your email address..."
+            />
+            <!-- TODO: position right arrow button -->
+            <!-- <button class="btn-subscribe" type="submit">
+              <i class="fa-sharp fa-solid fa-arrow-right"></i>
+            </button> -->
+          </form>
+        </div>
+      </main>
+
+      <!-- footer start -->
+      <footer>
+        <h2>Samson G.</h2>
+        <div class="address">
+          <p>Address:</p>
+          <p class="footer-text">Mukuyu Town, Murang'a</p>
+          <p class="footer-text">PO BOX 321</p>
+        </div>
+        <div class="tel">
+          <p>Tel:</p>
+          <p class="footer-text">+254741762502</p>
+        </div>
+        <div class="my-email">
+          <p>Email:</p>
+          <p class="footer-text">
+            <a href="mailto:githinjisamson148@gmail.com"
+              >githinjisamson148@gmail.com</a
+            >
+          </p>
+        </div>
+        <div class="social-icons">
+          <p>Social Media:</p>
+          <a href=""></a>
+          <a
+            class="social-icon"
+            href="https://www.facebook.com/"
+            target="_blank"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a
+            class="social-icon"
+            href="https://twitter.com/login"
+            target="_blank"
+            ><i class="fa-brands fa-x-twitter"></i
+          ></a>
+          <a class="social-icon" href="https://ke.linkedin.com/" target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+      </footer>
+      <!-- footer end -->
+    </div>
+  </body>
+</html>
